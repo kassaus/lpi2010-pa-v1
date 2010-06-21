@@ -35,5 +35,17 @@
     <ClCompile Include="lpi2010_pa_v1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="espectador.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="leTipos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="layout.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gestor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

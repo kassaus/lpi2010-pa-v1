@@ -49,7 +49,8 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions); _CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <CompileAs>CompileAsC</CompileAs>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -82,6 +83,10 @@
     <ClInclude Include="tipos.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="espectador.c" />
+    <ClCompile Include="gestor.c" />
+    <ClCompile Include="layout.c" />
+    <ClCompile Include="leTipos.c" />
     <ClCompile Include="lpi2010_pa_v1.c" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
